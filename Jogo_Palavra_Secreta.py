@@ -28,3 +28,13 @@ while True:
             letra_em_secreta += '_'
 
     print(f'A palavra secreta está assim: {letra_em_secreta}')
+    print()
+
+    if letra_em_secreta == secreta:
+        print('Uhuul, você ganhou!!!')
+        print()
+        print(f'A palavra secreta é: {secreta}')
+        print()
+        break
+
+sair = input('precione ENTER para sair.')
